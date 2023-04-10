@@ -1,0 +1,24 @@
+.App{
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+}
+
+.content{
+  padding-left: var(--container-padding);
+  padding-right: var(--container-padding);
+  max-width: var(--maxwidth);
+}
+
+.content div{
+  background-color: grey;
+  height: 50px;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: var(--grid-main);
+  grid-auto-rows: min-content;
+  gap: 0 var(--grid-gap);
+}

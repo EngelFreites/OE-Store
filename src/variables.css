@@ -1,0 +1,86 @@
+html {
+  /* Familias tipograficas */
+
+  --font-1:'Montserrat', sans-serif;
+  --font-2: 'Girassol', cursive;
+
+  /*variables tipograficas*/
+
+  --text-2xs: 10px;
+  --text-xs: 12px;
+  --text-s: 14px;
+  --text-base: 16px;
+  --text-l: 18px;
+  --text-xl: 20px;
+  --text-2xl: 24px;
+  --text-3xl: 30px;
+  --text-4xl: 36px;
+  --text-5xl: 48px;
+  --text-6xl: 64px;
+
+  /*COLORES PRINCIPALES*/
+  
+  --primary: var(--primary-8);
+  --secunday: var(var(--secundary-8));
+  --secundary-light: #f2f2f2;
+
+  /*Escala de colores*/
+
+  --primary-1: #f15c56;
+  --primary-2: #f26b66;
+  --primary-3: #f04d46;
+  --primary-4: #ef3e36;
+  --primary-5: #ed2f27;
+  --primary-6: #ec2017;
+  --primary-7: #e01b12;
+  --primary-8: #d01911;
+
+  --secundar-1: #7c7c87;
+  --secundar-2: #74747e;
+  --secundar-3: #6b6b76;
+  --secundar-4: #63636d;
+  --secundar-5: #5b5b64;
+  --secundar-6: #53535b;
+  --secundar-7: #4b4b52;
+  --secundar-8: #434349;
+
+  /* DEFAUL DESTOK*/
+
+  --maxwidth: 1440px;
+  --grid-main: repeat(12, minmax(0, 1fr));
+  --grid-gap: 30px;
+  --container-padding: 20px;
+
+}
+
+@media (max-width: 900px){
+  html{
+    --grid-main: repeat(10, minmax(0, 1fr));
+    --grid-gap: 15px;
+    --container-padding: 15px;
+  }
+}
+
+@media (max-width: 700px){
+  html{
+    --grid-main: repeat(8, minmax(0, 1fr));
+    --grid-gap: 15px;
+    --container-padding: 15px;
+  }
+}
+
+@media (max-width: 500px){
+  html{
+    --grid-main: repeat(6, minmax(0, 1fr));
+    --grid-gap: 10px;
+    --container-padding: 10px;
+  }
+}
+
+@media (max-width: 320px){
+  html{
+    --grid-main: repeat(4, minmax(0, 1fr));
+    --grid-gap: 20px;
+    --container-padding: 20px;
+  }
+}
