@@ -60,6 +60,52 @@
   grid-column: span 12;
 }
 
+
+/* Escala tipográfica */
+
+.text-jumbo {
+  font-size: var(--text-jumbo);
+}
+
+.text-display {
+  font-size: var(--text-display);
+}
+
+.text-headline {
+  font-size: var(--text-headline);
+}
+
+.text-title {
+  font-size: var(--text-title);
+}
+
+.text-subheader {
+  font-size: var(--text-subheader);
+}
+
+.text-body {
+  font-size: var(--text-base);
+}
+
+.text-caption {
+  font-size: var(--text-caption);
+}
+
+.text-note {
+  font-size: var(--text-note);
+}
+
+/* Familias tipográficas */
+.font-1 {
+  font-family: var(--font-1);
+}
+
+.font-2 {
+  font-family: var(--font-2);
+  font-weight: normal;
+}
+
+
 /* Grid cols md (10 columns): <900 */
 @media (max-width: 900px) {
   .col-11,
