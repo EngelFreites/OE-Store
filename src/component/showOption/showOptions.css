@@ -1,0 +1,7 @@
+.options{
+  position: absolute;
+  background-color: var(--secundary-light-9);
+  width: 140%;
+  height: 200px;
+  margin-top: 19px;
+}

@@ -1,13 +1,12 @@
 import React from 'react'
 import './App.css'
+import Header from './component/header/Header'
 
 function App () {
   return (
     <div className="App">
-      <header> header</header>
+      <Header/>
       <div className='content grid'>
-        <div className='col-2'></div>
-        <div className='col-3'></div>
       </div>
       <footer>footer</footer>
     </div>
