@@ -20,6 +20,10 @@
   display: none;
 }
 
+.hamburge:hover {
+  cursor: pointer;
+}
+
 .header {
   position: relative;
   display: flex;
@@ -31,6 +35,10 @@
 
 .header h1{
   color: var(--primary);
+}
+
+.header h1:hover{
+  cursor: pointer;
 }
 
 .header ul{
