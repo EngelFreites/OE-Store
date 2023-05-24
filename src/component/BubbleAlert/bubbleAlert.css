@@ -1,0 +1,7 @@
+.bubbleAlert {
+  background-color: var(--primary);
+  border-radius: 15px;
+  color: var(--third);
+  padding: 2px 6px;
+  font-size: var(--text-caption);
+}

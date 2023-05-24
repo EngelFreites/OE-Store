@@ -1,0 +1,39 @@
+.menu{
+  position: fixed;
+  z-index: 9999;
+  background-color: var(--primary);
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat( 5, 1fr);
+  padding: var(--spacer-m);
+}
+.title-options{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font-2);
+  font-size: var( --text-title);
+}
+
+.title-options p:hover{
+  cursor: pointer;
+  color:var(--secundary-light)
+}
+
+.arrow-icom {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-top: 20px;
+  margin-left: 20px;
+  color: var(--secundary-light);
+}
+
+
+.arrow-icom:hover{
+  cursor: pointer;
+}
