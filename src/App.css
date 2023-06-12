@@ -9,16 +9,46 @@
   padding-left: var(--container-padding);
   padding-right: var(--container-padding);
   max-width: var(--maxwidth);
+
 }
 
-.content div{
-  background-color: grey;
+.bar{
+  background-color: var(--primary);
   height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--secundary-light-9) ;
+  gap: 10px;
+  font-family:var(--font-1);
+  font-size:var( --text-base) ;
 }
 
 .grid{
   display: grid;
   grid-template-columns: var(--grid-main);
   grid-auto-rows: min-content;
-  gap: 0 var(--grid-gap);
+  gap: var(--spacer-xs);
+}
+
+.content-img { 
+  width: 100%;
+  height: 500px;
+}
+
+.content-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.recomendaciones{
+  justify-content: center;
+  padding:var(--spacer-s) ;
+  display: flex;
+  gap: var(--spacer-xl);
+}
+
+.recomendacion {
+  height: 475px;
 }
