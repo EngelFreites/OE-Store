@@ -1,19 +1,8 @@
-import { AiFillFacebook, AiFillInstagram, AiFillGithub } from 'react-icons/ai' 
-
-function Footer () {
-  return (
-    <>
-      <h1>Create by Engelbert</h1>
-      <AiFillFacebook data-cy='icon' />
-      <AiFillInstagram data-cy='icon' />
-      <AiFillGithub data-cy='icon' />
-    </>
-  )
-}
+import Footer from "./Footer"
 
 describe('footer.cy.jsx', () => {
   beforeEach(()=>{
-    cy.mount(<Footer></Footer>)
+    cy.mount(<Footer />)
   })
 
   it('should be the text', () => {

@@ -1,0 +1,22 @@
+.content-footer {
+  display:  flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 15px;
+  background-color: var( --primary);
+}
+
+.content-footer h1{
+  font-family:var(--font-1) ;
+  font-size: var(--text-caption);
+}
+
+.content-icon {
+  display: flex;
+  justify-content: center;
+  font-size: var(--text-title);
+  color: var(--secundary-light);
+  gap: 20px;
+}
