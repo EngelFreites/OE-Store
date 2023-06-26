@@ -1,5 +1,5 @@
 export function Footer () {
   return (
-    <footer>hellow</footer>
+    <footer>Creado por Engel</footer>
   )
 }
