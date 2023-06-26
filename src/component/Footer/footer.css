@@ -8,3 +8,10 @@ footer{
   font-family: var(--font-1);
   font-size: var(--text-subheader);
 }
+
+.content-footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}

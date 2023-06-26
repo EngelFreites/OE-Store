@@ -10,7 +10,6 @@ export function Footer () {
         <AiFillInstagram data-test="instagram" />
         <AiFillGithub data-test="github" />
       </div> 
-
     </footer>
   )
 }
