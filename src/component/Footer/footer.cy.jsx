@@ -13,4 +13,12 @@ describe('footer', () => {
   it('shoul be the specific text content', ()=>{
     cy.contains('Creado por Engel')
   })
+
+  it('shuold be three icons about social midal', () => {
+    cy.get("[data-test=instagram]")
+    cy.get("[data-test=facebook]")
+    cy.get("[data-test=github]")
+  })
+
+
 })
