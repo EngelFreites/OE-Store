@@ -1,0 +1,10 @@
+footer{
+  justify-content: center;
+  display: flex;
+  background-color:#d01911;
+  flex-direction: row ;
+  gap: 15px;
+  padding: 15px;
+  font-family: var(--font-1);
+  font-size: var(--text-subheader);
+}
