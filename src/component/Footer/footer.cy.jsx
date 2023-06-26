@@ -2,12 +2,15 @@ import { Footer } from "./Footer"
 
 describe('footer', () => {
 
+  beforeEach (()=>{
+    cy.mount(<Footer />)
+  })
+
   it('the component can render', () => {
-    cy.mount(<Footer/>)
+    cy.get(<footer/>)
   }),
 
   it('shoul be the specific text content', ()=>{
-    cy.mount(<Footer />)
     cy.contains('Creado por Engel')
   })
 })
