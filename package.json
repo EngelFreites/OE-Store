@@ -7,14 +7,15 @@
     "test": "vitest --ui",
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "cypress:open" : "cypress open"
+
   },
   "dependencies": {
-    "@fortawesome/free-solid-svg-icons": "^6.4.0",
-    "feather-icons": "^4.29.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.8.0"
+
   },
   "devDependencies": {
     "@testing-library/react": "^14.0.0",
@@ -22,6 +23,7 @@
     "@types/react-dom": "^18.0.11",
     "@vitejs/plugin-react": "^3.1.0",
     "@vitest/ui": "^0.30.1",
+    "cypress": "^12.15.0",
     "eslint": "^8.38.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.27.5",

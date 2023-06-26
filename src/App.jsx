@@ -6,6 +6,7 @@ import model2 from './assets/model2.jpeg'
 import { FaStoreAlt } from 'react-icons/fa'
 import { Title } from './component/Title/Title'
 import model from './assets/model.jpg'
+import { Footer } from './component/Footer/Footer'
 
 function App () {
   return (
@@ -25,7 +26,7 @@ function App () {
             <img src={model2} alt='model' className='recomendacion' />
           </div>
       </div>
-      <footer>footer</footer>
+      <Footer />
     </div>
   )
 }
