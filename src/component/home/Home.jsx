@@ -3,6 +3,7 @@ import { FaStoreAlt } from 'react-icons/fa'
 import img from '../../assets/initial.jpg'
 import model2 from '../../assets/model2.jpeg'
 import model from '../../assets/model.jpg'
+import './home.css'
 
 export function Home () {
   return (
