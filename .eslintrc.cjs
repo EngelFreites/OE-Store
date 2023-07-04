@@ -17,6 +17,6 @@ module.exports = {
     'react'
   ],
   rules: {
-    'react/react-injsx-scope': 'off'
+    'react/react-injsx-scope': 'on'
   }
 }
