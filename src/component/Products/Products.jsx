@@ -1,18 +1,18 @@
 import './products.css'
+import Product from '../Product/Producto'
 export default function Products  ({products}){
   return(
     <div className='products'>
       <ul>
         {
           products.map( product => (
-            <li key={product.id}>
-              <div className="content-product">
-                <img src={product.image} alt={product.title}  width='250' height='300'/>
-                <div className="content-description">
-                  <p>{product.title}</p>
-                  <p>{product.price}</p>
-                </div>
-              </div>
+            <li key={product.id}> 
+              <Product 
+                id={product.id} 
+                image={product.image}
+                title={product.title}
+                price={product.price}
+                />
             </li>
           ))
         }
