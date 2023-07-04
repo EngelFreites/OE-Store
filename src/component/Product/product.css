@@ -5,6 +5,11 @@
   align-items: center;
   gap: 10px; 
 }
+.line{
+  width: 180px;
+  height: 1px;
+  background-color: var(--primary);
+}
 .content-description {
   display: flex;
   justify-content: center;
