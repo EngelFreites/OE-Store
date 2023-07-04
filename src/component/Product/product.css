@@ -5,7 +5,27 @@
   align-items: center;
   gap: 10px; 
 }
+.content-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .content-product p {
-  width: 100px;
+  width: 180px;
+}
+
+.prices-icons {
+  width: 180PX;
+  display: flex;
+  gap: 5px;
+  justify-content: space-between;
+}
+
+.prices-icons svg {
+  font-size: 18px;
+}
+
+.prices-icons svg:hover {
+  cursor: pointer;
 }
