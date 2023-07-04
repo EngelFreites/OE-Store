@@ -14,11 +14,15 @@ function App () {
       .then(json=> setProducts(json))
   },[products])
 
+  const clouthes = products.filter( product => {
+    if(product.category !== "electronics") return product
+  })
+
 
   return (
     <div className="App">
       <Header />
-      <Products products={products} />
+      <Products products={clouthes} />
       <Footer />
     </div>
   )

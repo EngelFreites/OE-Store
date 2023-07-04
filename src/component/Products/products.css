@@ -3,19 +3,17 @@
   justify-content: center;
   align-items: center;
 }
-ul{
-  list-style: none;
+ul{ 
   width: 100%;
+  padding:0;
+  margin: 0;
+  list-style: none;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-}
-.content-product{
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 10px;
 }
+
 
 .content-description {
   display: flex;

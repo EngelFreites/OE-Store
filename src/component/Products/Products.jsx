@@ -6,14 +6,13 @@ export default function Products  ({products}){
       <ul>
         {
           products.map( product => (
-            <li key={product.id}> 
-              <Product 
-                id={product.id} 
-                image={product.image}
-                title={product.title}
-                price={product.price}
-                />
-            </li>
+            <Product 
+              key={product.id}
+              id={product.id} 
+              image={product.image}
+              title={product.title}
+              price={product.price}
+              />
           ))
         }
       </ul>
