@@ -1,0 +1,24 @@
+.products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul{
+  list-style: none;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.content-product{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.content-description {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+}
